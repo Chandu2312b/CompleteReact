@@ -24,3 +24,22 @@ function Usingprops(props){
     )
 }
 export default Usingprops;
+
+
+
+// in Usingprops(name , age) we can also use destructuring to get the props values
+// like function Usingprops({name, age}){
+// then we can directly use name and age instead of props.name and props.age
+
+
+// import React from 'react';
+
+// function Usingprops({name}){
+//     return (
+//         <div>
+//         <h1> Hello , {name}</h1>
+//         <h2> Your age is ,{age}</h2>
+//     </div>
+//     )
+// }
+// export default Usingprops;

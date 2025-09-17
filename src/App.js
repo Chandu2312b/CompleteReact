@@ -5,6 +5,7 @@ import Statebutton from './practice/statebutton';
 
 import Eventhandlers from './practice/7eventHandlers';
 import Greet from './practice/7eventHandlers';
+import ConditionalRendering from './practice/9conditionalRendering';
 
 function App() {
   const users = [
@@ -24,7 +25,8 @@ function App() {
     {/* <Greeting /> */}
     {/* <Usingprops name ="chandu" age = {20} /> */}
     {/* <Statebutton /> */}
-    <Eventhandlers />
+    {/* <Eventhandlers /> */}
+    <ConditionalRendering/>
   
       </div>
     

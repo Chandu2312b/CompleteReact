@@ -6,24 +6,47 @@
 
 import React,{useState} from "react";
 
-const Eventhandlers =()=> {
-    const [msg,setmsg] = useState("Hello user");
 
-    const handleClick =() =>{
-        setmsg("msg clicked");
+const AboutEvents = () =>{
+    const [value , setValue] = useState("");
+      function handleInputChange(event) {
+    // event.target -> the <input> element
+    console.log("event.type:", event.type);          // "change"
+    console.log("event.target:", event.target);      // <input ...>
+    console.log("event.target.value:", event.target.value);
 
-    }
+    // update state with the typed value
+    setValue(event.target.value);
+  }
 
-    return (
-        <div>
-            <h1> msg: {msg}</h1>
-            <button onClick={handleClick}>
-Click me
-            </button>
-        </div>
-    )
+  return (
+    <div>
+      <input value={value} onChange={handleInputChange} placeholder="Type..." />
+      <p>Typed value: {value}</p>
+    </div>
+  );
 }
-export default Eventhandlers
+
+export default AboutEvents;
+
+// const Eventhandlers =()=> {
+//     const [msg,setmsg] = useState("Hello user");
+
+//     const handleClick =() =>{
+//         setmsg("msg clicked");
+
+//     }
+
+//     return (
+//         <div>
+//             <h1> msg: {msg}</h1>
+//             <button onClick={handleClick}>
+// Click me
+//             </button>
+//         </div>
+//     )
+// }
+// export default Eventhandlers
 
 // import React, { use, useState } from "react";
 
