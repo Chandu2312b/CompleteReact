@@ -8,6 +8,7 @@ import Greet from './practice/7eventHandlers';
 import ConditionalRendering from './practice/9conditionalRendering';
 import Listskeys from './practice/10listskeys';
 import Arrowfunction from './practice/11forms';
+import LiveClock from './practice/12hooks';
 
 function App() {
   const users = [
@@ -30,7 +31,8 @@ function App() {
     {/* <Eventhandlers /> */}
     {/* <ConditionalRendering/> */}
     {/* <Listskeys/> */}
-    <Arrowfunction/>
+    {/* <Arrowfunction/> */}
+    <LiveClock/>
   
       </div>
     
