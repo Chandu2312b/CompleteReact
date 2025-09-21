@@ -9,6 +9,7 @@ import ConditionalRendering from './practice/9conditionalRendering';
 import Listskeys from './practice/10listskeys';
 import Arrowfunction from './practice/11forms';
 import LiveClock from './practice/12hooks';
+import Contextusage from './practice/13context';
 
 function App() {
   const users = [
@@ -33,6 +34,7 @@ function App() {
     {/* <Listskeys/> */}
     {/* <Arrowfunction/> */}
     {/* <LiveClock/> */}
+    <Contextusage/>
   
       </div>
     
