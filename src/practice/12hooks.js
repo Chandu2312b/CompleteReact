@@ -36,5 +36,6 @@ function LiveClock() {
     </div>
   );
 }
+// just updated the live  mode 
 
 export default LiveClock;
